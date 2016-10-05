@@ -34,7 +34,7 @@ Il est désormais nettement plus facile de se passer de jQuery, et d'écrire du 
 
 Le site [Vanilla JS](http://vanilla-js.com/) expose sous un mode parodique (en se présentant comme une énième librairie JavaScript) les avantages (en termes de vitesse) à utiliser du JavaScript pur, plutôt que de se reposer sur une librairie telle que jQuery, Prototype, Dojo, MooTools.
 
-![](/cours-web/cours-html/img/Strip-Prendre-le-train-en-marche-650-final1.jpg)
+![](/cours-html/img/Strip-Prendre-le-train-en-marche-650-final1.jpg)
 
 Préprocesseurs:
 ===
