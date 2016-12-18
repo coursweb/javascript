@@ -46,8 +46,21 @@ On a vu l'apparition de préprocesseurs (comme SASS ou LESS) pour faciliter l'é
 Apprendre le JavaScript
 ===
 
-- Une approche proposée par Remkus de Vries: [https://remkusdevries.com/learning-javascript-in-wordpress-deeply/](https://remkusdevries.com/learning-javascript-in-wordpress-deeply/)
+<h3>Fonctionnement général du JavaScript:</h3>
+
+- Conseils d'apprentissage, par Remkus de Vries: [https://remkusdevries.com/learning-javascript-in-wordpress-deeply/](https://remkusdevries.com/learning-javascript-in-wordpress-deeply/)
 -  Deux livres recommandés: [https://tommcfarlin.com/recommended-javascript-books/](https://tommcfarlin.com/recommended-javascript-books/)
+
+<h3>Graphisme et visualisation:</h3>
+
+- [Programming Design Systems](https://programmingdesignsystems.com/), un livre digital gratuit et open-source, en cours d'écriture par Rune Madsen. Les exercices et exemples de code sont en Javascript (et utilisent P5, une librairie de dessin vectoriel).
+
+Librairies de dessin vectoriel et de visualisation:
+
+- [Raphaël](http://dmitrybaranovskiy.github.io/raphael/) - "a JavaScript library that draws Vector graphics" for web sites" - par 	Dmitry Baranovskiy.
+- [Paper.js](http://paperjs.org/) - "an open source vector graphics scripting framework that runs on top of the HTML5 Canvas" - développé par Jürg Lehni & Jonathan Puckey.
+- [P5.js](http://p5js.org/) - "Processing core ideas reinterpreted for today's web." - créé par [Lauren McCarthy](http://lauren-mccarthy.com/).
+- [Basil.js](http://basiljs.ch/) - "for JS scripting in Indesign." - par Ted Davis, Benedikt Groß, Ludwig Zeller (Ecole de Design de Bâle)
 
 ES6
 ===
