@@ -8,6 +8,8 @@ Le **JavaScript** n'a rien à voir avec **Java**, un autre language de programma
 
 Il a été créé en 1995, pour Netscape Navigator, par Brendan Eich (en 10 jours, selon la légende, pour coïncider avec la sortie de Netscape 2). En fin 1996, Netscape entreprend des démarches pour faire de JavaScript un standard (qui s'appelle ECMAScript). 
 
+Le JavaScript, s'il a été utilisé initialement pour ajouter de "petites fonctionalités" aux navigateurs, comme p.ex. les fenêtres pop-up, 
+
 Ce standard est révisé régulièrement, la 6ème version (ES6) a été finalisée en juin 2015.
 
 Etat du JavaScript en 2016
@@ -36,6 +38,9 @@ Le site [Vanilla JS](http://vanilla-js.com/) expose sous un mode parodique (en s
 
 ![](/cours-html/img/Strip-Prendre-le-train-en-marche-650-final1.jpg)
 
+
+
+
 Préprocesseurs:
 ===
 
@@ -51,29 +56,4 @@ Apprendre le JavaScript
 - Conseils d'apprentissage, par Remkus de Vries: [https://remkusdevries.com/learning-javascript-in-wordpress-deeply/](https://remkusdevries.com/learning-javascript-in-wordpress-deeply/)
 -  Deux livres recommandés: [https://tommcfarlin.com/recommended-javascript-books/](https://tommcfarlin.com/recommended-javascript-books/)
 
-<h3>Graphisme et visualisation:</h3>
-
-- [Programming Design Systems](https://programmingdesignsystems.com/), un livre digital gratuit et open-source, en cours d'écriture par [Rune Madsen](https://runemadsen.com/) (enseignant au [ITP à New York University](https://tisch.nyu.edu/about/directory/itp/1490791702)). Les exercices et exemples de code sont en Javascript (et utilisent **P5**, une librairie de dessin vectoriel).
-
-![Travaux d'étudiants de Rune Madsen](/cours-javascript/img/rune-students.jpg)
-
-Librairies de dessin vectoriel et de visualisation:
-
-- [Raphaël](http://dmitrybaranovskiy.github.io/raphael/) - "a JavaScript library that draws Vector graphics" for web sites" - par 	Dmitry Baranovskiy.
-- [Paper.js](http://paperjs.org/) - "an open source vector graphics scripting framework that runs on top of the HTML5 Canvas" - développé par Jürg Lehni & Jonathan Puckey.
-- [P5.js](http://p5js.org/) - "Processing core ideas reinterpreted for today's web." - créé par [Lauren McCarthy](http://lauren-mccarthy.com/).
-- [Basil.js](http://basiljs.ch/) - "for JS scripting in Indesign." - par Ted Davis, Benedikt Groß, Ludwig Zeller (Ecole de Design de Bâle)
-- [Rune.js](http://runemadsen.github.io/rune.js/) - une librairie développée par Rune Madsen
-
-![Call me Adele, détail](/cours-javascript/img/call-me-adele.jpg)
-
-Analyse de données provenant de SMS, dessinant l'évolution d'une relation amoureuse sur quatre années, généré avec Rune.js. [Call me Adele](https://medium.com/@wipaweeeeee/call-me-adele-f37162b6ffe5#.padbmd6fd), Travail de l'artiste Wipawe Sirikolkarn
-
-ES6
-===
-
-Qu'est-ce que ES6 ? Une nouvelle version du standard JavaScript, dont la spécification a été finalisée en 2015.
-
-Table de compatibilité JavaScript:
-[http://kangax.github.io/compat-table/es6/](http://kangax.github.io/compat-table/es6/)
 
