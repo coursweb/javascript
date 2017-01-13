@@ -1,7 +1,7 @@
 ---
 layout: page
 title: JavaScript
-permalink: /javascript/
+permalink: /js/
 ---
 
 Le **JavaScript** n'a rien à voir avec **Java**, un autre language de programmation. 
