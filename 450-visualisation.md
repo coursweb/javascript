@@ -18,7 +18,7 @@ Librairies de dessin vectoriel et de visualisation:
 - [Basil.js](http://basiljs.ch/) - "for JS scripting in Indesign." - par Ted Davis, Benedikt Groß, Ludwig Zeller (Ecole de Design de Bâle)
 - [Rune.js](http://runemadsen.github.io/rune.js/) - une librairie développée par Rune Madsen
 
-![Call me Adele, détail](/cours-javascript/img/call-me-adele.jpg)
+![Call me Adele - détail](/cours-javascript/img/call-me-adele-alt.jpg)
 
 Analyse de données provenant de SMS, dessinant l'évolution d'une relation amoureuse sur quatre années, généré avec Rune.js. [Call me Adele](https://medium.com/@wipaweeeeee/call-me-adele-f37162b6ffe5#.padbmd6fd), Travail de l'artiste Wipawe Sirikolkarn
 
