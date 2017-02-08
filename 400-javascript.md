@@ -10,9 +10,9 @@ Il a été créé en 1995, pour Netscape Navigator, par Brendan Eich (en 10 jour
 
 Le JavaScript, s'il a été utilisé initialement pour ajouter de "petites fonctionalités" aux navigateurs, comme p.ex. les fenêtres pop-up, 
 
-Ce standard est révisé régulièrement, la 6ème version (ES6) a été finalisée en juin 2015.
+Ce standard est révisé régulièrement, la 6ème version (ES6 ou ES2015) a été finalisée en juin 2015 et la 7ème (ES7 ou ES2016) en juin 2016. Juriy Zaytev propose un [tableau récapitulatif](http://kangax.github.io/compat-table/) des fonctionnalités supportées par les différentes implémentations et navigateurs.
 
-Etat du JavaScript en 2016
+État du JavaScript en 2017
 ==
 
 De nombreux utilitaires ont été construits sur la base du JavaScript:
@@ -25,7 +25,7 @@ De nombreux utilitaires ont été construits sur la base du JavaScript:
 
 Une application web contemporaine, au lieu d'utiliser **LAMP** (**L**inux, **A**pache, **M**ySQL, **P**HP), pourrait tourner sur **MEAN**, acronyme pour l'utilisation de **M**ongoDB (base de données), **E**xpress.js, **A**ngular.js, et **N**ode.js - une base logicielle entièrement codée en langage JavaScript.
 
-La librairie jQuery
+La bibliothèque jQuery
 ==
 
 Lancée en janvier 2006 par John Resig, **jQuery** est une bibliothèque JavaScript libre et multi-plateforme créée pour faciliter l'écriture de scripts côté client dans le code HTML des pages web.
@@ -34,23 +34,27 @@ Dans son article, *[Thank you, jQuery](https://adactio.com/journal/10806)*, publ
 
 Il est désormais nettement plus facile de se passer de jQuery, et d'écrire du "Plain Vanilla JavaScript". L'objectif ultime d'un outil comme jQuery serait de ne plus être nécessaire.
 
-Le site [Vanilla JS](http://vanilla-js.com/) expose sous un mode parodique (en se présentant comme une énième librairie JavaScript) les avantages (en termes de vitesse) à utiliser du JavaScript pur, plutôt que de se reposer sur une librairie telle que jQuery, Prototype, Dojo, MooTools.
+Le site [Vanilla JS](http://vanilla-js.com/) expose sous un mode parodique (en se présentant comme une énième bibliothèque JavaScript) les avantages (en termes de vitesse) à utiliser du JavaScript pur, plutôt que de se reposer sur une bibliothèque telle que jQuery, Prototype, Dojo, MooTools.
 
 ![](/cours-html/img/Strip-Prendre-le-train-en-marche-650-final1.jpg){:id: .large-image}
 
 Préprocesseurs:
 ===
 
-On a vu l'apparition de préprocesseurs (comme SASS ou LESS) pour faciliter l'écriture du CSS. Cela existe aussi pour le JavaScript:
+On a vu l'apparition de préprocesseurs (comme SASS ou LESS) pour faciliter l'écriture du CSS. Cela existe aussi pour le JavaScript, ces langages sont convertis en JavaScript normal pouvant être compris par le navigateur.
 
-**CoffeeScript** est un langage de programmation plus épuré que le JavaScript, pouvant être automatiquement converti en JavaScript normal.
+- [**CoffeeScript**](http://coffeescript.org/) est un langage de programmation plus épuré que le JavaScript.
+- [**TypeScript**](https://www.typescriptlang.org/) est un langage de programmation plus stricte que le JavaSript, permettant de gérer des types comme en Java. TypeScript est notamment utilisé par AngularJS 2 et sponsorisé par Microsoft.
+- [**Dart**](https://www.dartlang.org/) est un langage de programmation proche de Java pouvant être compilé vers JavaScript. Il est utilisé par Google.
 
 Apprendre le JavaScript
 ===
 
-<h3>Fonctionnement général du JavaScript:</h3>
+### Fonctionnement général du JavaScript:
 
-- Conseils d'apprentissage, par Remkus de Vries: [https://remkusdevries.com/learning-javascript-in-wordpress-deeply/](https://remkusdevries.com/learning-javascript-in-wordpress-deeply/)
--  Deux livres recommandés: [https://tommcfarlin.com/recommended-javascript-books/](https://tommcfarlin.com/recommended-javascript-books/)
+
+- Conseils d'apprentissage, par Remkus de Vries: <https://remkusdevries.com/learning-javascript-in-wordpress-deeply/>
+- Un réintroduction à JavaScript: <https://developer.mozilla.org/fr/docs/Web/JavaScript/Une_réintroduction_à_JavaScript>
+- Deux livres recommandés: <https://tommcfarlin.com/recommended-javascript-books/>
 
 
