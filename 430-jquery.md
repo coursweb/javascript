@@ -1,7 +1,7 @@
 ---
 layout: page
 title: jQuery
-permalink: /js/jquery/
+permalink: /js/jquery
 ---
 
 Charger jQuery
