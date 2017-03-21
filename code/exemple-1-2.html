@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+	<title>Bienvenue</title>
+	<script>
+	  function addItem(ulTag) {
+	    var item = document.createElement("li"); //nouveau noeud de type <li>
+	    item.innerHTML="Lorem Ipsum";
+	    ulTag.appendChild(item); //greffe du nouveau noeud à son parent
+	  }
+	</script>
+</head>
+<body>
+	<ul onmouseover="addItem(this)">
+	  <li>Uniquement en semaine</li>
+	</ul>
+</body>
+</html>

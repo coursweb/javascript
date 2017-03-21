@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bienvenue</title>
+  <script>
+    function addItem() {
+      var ulTag = document.getElementById('list'); //navigation vers le parent
+      var item = document.createElement("li"); //nouveau noeud de type <li>
+      item.innerHTML="Lorem Ipsum";
+      ulTag.appendChild(item); //greffe du nouveau noeud à son parent
+    }
+  </script>
+</head>
+<body>
+	<ul id="list" onmouseover="addItem()">
+    <li>Uniquement en semaine</li>
+	</ul>
+</body>
+</html>
