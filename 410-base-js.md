@@ -147,7 +147,7 @@ Notion de fonction
 ===
 
 ```javascript
-// déclaration de la fonctionfunction afficher(id, message) {  console.log("Message: " + message);  document.getElementById(id).innerHTML = message;}// deux exemples d'appelafficher("id1", "<p>Du contenu bien frais !</p>");afficher("id2", "Un autre contenu.");
+// déclaration de la fonctionfunction afficher(id, message) {  console.log("Message: " + message);  document.getElementById(id).innerHTML = message;};// deux exemples d'appelafficher("id1", "<p>Du contenu bien frais !</p>");afficher("id2", "Un autre contenu.");
 ```
 
 Une fonction, c'est un ensemble d’instructions prêt à être utilisé après sa déclaration.
