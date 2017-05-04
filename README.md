@@ -28,4 +28,5 @@ Les auteurs et contributeurs sont:
 
 * Manuel Schmalstieg – artiste, développeur et enseignant.
 * Yoan Blanc - Freelance developer hanging around @HE-Arc and @CPLN.
+* Olivier Le Goaer - auteur de "Programmation Web avec JavaScript"
 
