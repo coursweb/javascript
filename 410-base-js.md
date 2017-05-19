@@ -9,10 +9,12 @@ Quelques bases JavaScript...
 Navigateurs et JavaScript
 ==
 
-Chaque navigateur intègre un interpréteur de JS, plus ou moins performant: SpiderMonkey (Firefox), V8 (Google Chrome), Chakra (Internet Explorer), SquirrelFish (Safari)
+Chaque navigateur intègre un interpréteur de JS, plus ou moins performant: 
+SpiderMonkey (Firefox), V8 (Google Chrome), Chakra (Internet Explorer), SquirrelFish (Safari)
 
 Permet un niveau d'interactivité plus riche qu'avec de l'HTML simple:
-* Certains traitements simples (ex: contrôle des saisies utilisateur) peuvent être réalisés par le navigateur plutôt que par le serveur.* Un document HTML/CSS chargé dans le navigateur peut être "remanié" dynamiquement !
+* Certains traitements simples (ex: contrôle des saisies utilisateur) peuvent être réalisés par le navigateur plutôt que par le serveur.
+* Un document HTML/CSS chargé dans le navigateur peut être "remanié" dynamiquement !
 
 Placer du JavaScript dans un document HTML
 ==
@@ -50,7 +52,9 @@ L'attribut **"defer"** indique au navigateur que le rendu de la page peut se pou
 **2) Dans le code de la page HTML (inline):**
 
 ```html
-<script>//ici vos définitions de fonctions/procédures JS //...</script>
+<script>
+//ici vos définitions de fonctions/procédures JS //...
+</script>
 ```
 
 
@@ -65,7 +69,8 @@ L'attribut **"defer"** indique au navigateur que le rendu de la page peut se pou
 
 La console est un outil intégré à votre navigateur. Voici comment l'afficher:
 
-* Dans Chrome: Alt+Cmd+J* Dans Firefox: Alt+Cmd+K
+* Dans Chrome: Alt+Cmd+J
+* Dans Firefox: Alt+Cmd+K
 * Dans Safari: Alt+Cmd+C
 
 À propos, il semble que Facebook n'apprécie pas que ses utilisateurs ouvrent la console développeur:
@@ -79,12 +84,14 @@ L'artiste James Bridle a [écrit un article](http://booktwo.org/notebook/welcome
 
 Afficher une boîte avec un message:
 
-```javascriptalert("Bonjour !");
+```javascript
+alert("Bonjour !");
 ```
 
 Écrire du texte dans la console (pour débugguer):
 
-```javascriptconsole.log("Texte d'essai");
+```javascript
+console.log("Texte d'essai");
 ```
 
 Écrire quelque chose dans le document, dans une balise HTML qui a un certain id:
@@ -101,7 +108,7 @@ Syntaxe JavaScript
 Chaque instruction est séparée par un ;
 
 Commentaires
-Par ligne : 
+Par ligne : 
 
 ```javascript
 // Ceci est un commentaire 
@@ -110,7 +117,8 @@ Commentaires
 Par bloc : 
 
 ```javascript
-/* Ceci est uncommentaire */
+/* Ceci est un
+commentaire */
 ```
 
 Conventions
@@ -118,7 +126,7 @@ Conventions
 * Noms de variables et fonctions écrits en CamelCase
 * Noms de constantes écrits en majuscule
 
-Déclaration et typage
+Déclaration et typage
 ===
 
 * Variables avec le mot clé var 
@@ -133,7 +141,8 @@ Types primitifs
 // Entier
 var annee = 2014;
 
-// Réelvar prix_ttc = 45.789;
+// Réel
+var prix_ttc = 45.789;
 
 // Chaîne de caractère
 var message="Gangnam style";
@@ -147,14 +156,23 @@ Notion de fonction
 ===
 
 ```javascript
-// déclaration de la fonctionfunction afficher(id, message) {  console.log("Message: " + message);  document.getElementById(id).innerHTML = message;};// deux exemples d'appelafficher("id1", "<p>Du contenu bien frais !</p>");afficher("id2", "Un autre contenu.");
+// déclaration de la fonction
+function afficher(id, message) {
+  console.log("Message: " + message);
+  document.getElementById(id).innerHTML = message;
+};
+// deux exemples d'appel
+afficher("id1", "<p>Du contenu bien frais !</p>");
+afficher("id2", "Un autre contenu.");
 ```
 
 Une fonction, c'est un ensemble d’instructions prêt à être utilisé après sa déclaration.
 
-* Permet la ré-utilisabilité du code* Deux temps : la déclaration, puis l’appel* Peut avoir des paramètres (ici id et message)
+* Permet la ré-utilisabilité du code
+* Deux temps : la déclaration, puis l’appel
+* Peut avoir des paramètres (ici id et message)
 
-Structures de contrôle
+Structures de contrôle
 ===
 
 Condition
@@ -165,7 +183,9 @@ if (expr) { ... } else { ... }
 
 Boucle
 
-```javascriptwhile (expr) { ... }do { ... } while (expr);
+```javascript
+while (expr) { ... }
+do { ... } while (expr);
 ```
 
 Sélection
@@ -176,20 +196,23 @@ switch(expr) { case n:...}
 
 Itération
 
-```javascriptfor (expr1; expr2; expr3) { ... }for (value in object) { ... } for each (key in object) { ... }
+```javascript
+for (expr1; expr2; expr3) { ... }
+for (value in object) { ... } for each (key in object) { ... }
 ```
 
 Enchaînement
 
-```javascriptwith(object) { key1...}
+```javascript
+with(object) { key1...}
 ```
 
-Opérateurs arithmétiques
+Opérateurs arithmétiques
 ===
 
-Opérateurs binaires
+Opérateurs binaires
 
-Opérateurs unaires
+Opérateurs unaires
 
-Opérateurs logiques
+Opérateurs logiques
 
