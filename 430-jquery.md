@@ -4,6 +4,8 @@ title: jQuery
 permalink: /js/jquery
 ---
 
+jQuery est une librairie javascript populaire, qui facilite la manipulation d'élémenents, et offre des raccourcis pour des actions fréquentes.
+
 Charger jQuery
 ==
 
