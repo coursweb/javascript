@@ -162,6 +162,8 @@ for (i = 0; i < x.length; i++) {
 }
 ```
 
+> La plus grosse amélioration que JavaScript a connue dans les navigateurs modernes est peut-être le support de la méthode `querySelectorAll`, qui nous permet d’accéder aux éléments du DOM à l’aide de sélecteurs CSS, comme nous le faisons avec jQuery ! - *Scott Jehl, dans: Design web responsive et responsable, 2014*        
+
 Mode d'accès : comparaison
 ===
 
