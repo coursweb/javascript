@@ -12,11 +12,13 @@ permalink: /js/visualisation
 
 Bibliothèques de dessin vectoriel et de visualisation:
 
-- [Raphaël](http://dmitrybaranovskiy.github.io/raphael/) - "a JavaScript library that draws Vector graphics" for web sites" - par 	Dmitry Baranovskiy.
-- [Paper.js](http://paperjs.org/) - "an open source vector graphics scripting framework that runs on top of the HTML5 Canvas" - développé par Jürg Lehni & Jonathan Puckey.
-- [P5.js](http://p5js.org/) - "Processing core ideas reinterpreted for today's web." - créé par [Lauren McCarthy](http://lauren-mccarthy.com/).
-- [Basil.js](http://basiljs.ch/) - "for JS scripting in Indesign." - par Ted Davis, Benedikt Groß, Ludwig Zeller (Ecole de Design de Bâle)
-- [Rune.js](http://runemadsen.github.io/rune.js/) - une bibliothèque développée par Rune Madsen
+<div class="cards"></div>
+
+- [Raphaël](http://dmitrybaranovskiy.github.io/raphael/) "a JavaScript library that draws Vector graphics" for web sites" - par 	Dmitry Baranovskiy.
+- [Paper.js](http://paperjs.org/) "an open source vector graphics scripting framework that runs on top of the HTML5 Canvas" - développé par Jürg Lehni & Jonathan Puckey.
+- [P5.js](http://p5js.org/) "Processing core ideas reinterpreted for today's web." - créé par Lauren McCarthy.
+- [Basil.js](http://basiljs.ch/) "for JS scripting in Indesign." - par Ted Davis, Benedikt Groß, Ludwig Zeller (Ecole de Design de Bâle)
+- [Rune.js](http://runemadsen.github.io/rune.js/) une bibliothèque développée par Rune Madsen
 
 ![Call me Adele - détail](/cours-javascript/img/call-me-adele-alt.jpg)
 
