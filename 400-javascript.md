@@ -5,7 +5,11 @@ permalink: /js/
 ---
 
 **JavaScript** est un langage de programmation...
-* **scripté** (interprété) - pas de compilateur à proprement parler.* **côté client** - s’exécute dans un navigateur en général(il existe des environnements côté serveur : NodeJS).* **asynchrone** - plusieurs « morceaux » peuvent s’exécuter en parallèle.
+
+* **scripté** (interprété) - pas de compilateur à proprement parler.
+* **côté client** - s’exécute dans un navigateur en général
+(il existe des environnements côté serveur : NodeJS).
+* **asynchrone** - plusieurs « morceaux » peuvent s’exécuter en parallèle.
 
 Il a été créé en 1995, pour Netscape Navigator, par Brendan Eich (en 10 jours, selon la légende, pour coïncider avec la sortie de Netscape 2). En fin 1996, Netscape entreprend des démarches pour faire de JavaScript un standard (qui s'appelle ECMAScript). 
 
@@ -16,11 +20,18 @@ Que permet le JavaScript?
 
 Le JavaScript, s'il a été utilisé initialement pour ajouter de "petites fonctionalités" aux navigateurs, comme p.ex. ouvrir des fenêtres pop-up, est néanmoins un langage de programmation à part entière. 
 
-Dans un navigateur JavaScript, permet :
-* de spécifier des changements sur le document :* sur le contenu, la structure, le style* en interceptant des événements (souris, clavier, doigts...)
+Dans un navigateur, JavaScript permet :
+
+* de spécifier des changements sur le document :
+* sur le contenu, la structure, le style
+* en interceptant des événements (souris, clavier, doigts...)
 
 Mais également (API HTML5) :
-* d’échanger avec un serveur (AJAX)* de dessiner (canvas - bitmap - ou svg - vectoriel)* de se géolocaliser* d’enregistrer localement du contenu (cache ou bdd)
+
+* d’échanger avec un serveur (AJAX)
+* de dessiner (canvas - bitmap - ou svg - vectoriel)
+* de se géolocaliser
+* d’enregistrer localement du contenu (cache ou bdd)
 * de jouer des fichiers audio ou video
 
 <h3>Des applications en JavaScript</h3>
