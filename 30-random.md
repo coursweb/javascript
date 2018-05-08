@@ -20,6 +20,7 @@ En d'autres termes, ...
 
 Exemple:
 
+```
 0.06658971550365189
 Math.random()
 0.06022587418583303
@@ -35,6 +36,7 @@ Math.random()
 0.5152607963708404
 Math.random()
 0.14983993531041606
+```
 
 Comme on le voit, cette fonction produit une valeur aléatoire comprise entre 0 et 1. Cela semble d'une utilité très limitée, mais sachant que la valeur obtenue peut être multipliée par un autre nombre, il est possible d'obtenir au final des nombres aléatoires dans un intervalle qu'on peut spécifier librement.
 
@@ -52,11 +54,13 @@ function getRandom(min, max) {
 
 Cela semble un peut complexe, mais tout est logique!
 
-Avec cette fonction, si on veut obtenir un chiffre aléatoire situé entre un minimum et un maximum.
-Pour un chiffre entre 111 et 777, on écrit: getRandom(111, 777).
+Avec cette fonction, si on veut obtenir un chiffre aléatoire situé entre un **minimum** et un **maximum**.  
+Pour un chiffre entre 111 et 777, on écrit: ```getRandom(111, 777)```.
 
 Pour attribuer une position aléatoire située entre 10% et 90%, voici comment procéder:
 
+```javascript
 document.getElementById("heure").style.top = getRandom(10, 90)+'%';
+```
 
 ***
