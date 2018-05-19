@@ -7,9 +7,11 @@ permalink: /js/
 **JavaScript** est un langage de programmation...
 * **scripté** (interprété) - pas de compilateur à proprement parler.* **côté client** - s’exécute dans un navigateur en général(il existe des environnements côté serveur : NodeJS).* **asynchrone** - plusieurs « morceaux » peuvent s’exécuter en parallèle.
 
-Il a été créé en 1995, pour Netscape Navigator, par Brendan Eich (en 10 jours, selon la légende, pour coïncider avec la sortie de Netscape 2). En fin 1996, Netscape entreprend des démarches pour faire de JavaScript un standard (qui s'appelle ECMAScript). 
+Une meilleure définition: le rôle du JavaScript consiste typiquement à sélectionner des parties d'un document, et à décrire ce qui doit changer quand un certain événement se produit (selon [Paul Robert Lloyd](https://paulrobertlloyd.com/2018/05/javascript)).
 
-JavaScript n'a rien à voir avec **Java**, un autre language de programmation. 
+Le langage JavaScript a été créé en 1995, pour Netscape Navigator, par Brendan Eich (en 10 jours, selon la légende, pour coïncider avec la sortie de Netscape 2, alors en forte concurrence avec Microsoft). En fin 1996, Netscape entreprend des démarches pour faire de JavaScript un standard (qui s'appellera ECMAScript). 
+
+JavaScript n'a rien à voir avec **Java**, un autre language de programmation qui était à la mode en 1995. 
 
 Que permet le JavaScript?
 ===
@@ -33,7 +35,7 @@ Entre ces deux extrêmes, le JavaScript peut être utilisé pour développer des
 
 Le standard JavaScript est révisé régulièrement. La 6ème version (ES6 ou ES2015) a été finalisée en juin 2015 et la 7ème (ES7 ou ES2016) en juin 2016. Juriy Zaytev propose un [tableau récapitulatif](http://kangax.github.io/compat-table/) des fonctionnalités supportées par les différentes implémentations et navigateurs.
 
-État du JavaScript en 2017
+État du JavaScript en 2018
 ==
 
 De nombreux utilitaires ont été construits sur la base du JavaScript:
