@@ -57,3 +57,13 @@ for (i = 2; i < 13; i++) {
 }
 ```
 
+### Supprimer un élément
+
+Comment supprimer un élément du DOM?
+
+Avec la méthode `removeChild`:
+
+```javascript
+var elem = document.querySelector('#some-element');
+elem.parentNode.removeChild(elem);
+```
