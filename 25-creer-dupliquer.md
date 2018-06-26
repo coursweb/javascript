@@ -51,8 +51,8 @@ for (i = 2; i < 13; i++) {
 	// On commence à 2, car on veut numéroter de 2 à 12
 
 	var clone = item.cloneNode(true);
-	clone.id = 'batons'+i;
-	document.querySelector("body").appendChild(clone);
+	clone.id = 'batons'+i; // on définit un ID unique pour chaque élément.
+	document.querySelector("body").appendChild(clone); // on insère dans la page.
 
 }
 ```
