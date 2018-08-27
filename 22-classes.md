@@ -32,9 +32,20 @@ En JavaScript classique, on utilisait une méthode un peu rudimentaire pour ajou
 el.className += ' ' + className;
 ```
 
-Il existe désormais une méthode plus pratique, qui est [supportée dans la majorité des navigateurs](https://caniuse.com/#search=classList) depuis 2013: 
+Il existe désormais une méthode plus pratique, qui est [supportée dans la majorité des navigateurs](https://caniuse.com/#feat=classlist) depuis 2013.
 
-'''javascript
+Elle permet de tester si une classe existe:
+
+```javascript
+var element = document.querySelector("#box");
+
+element.classList.contains("class-name");
+```
+
+Et permet d'ajouter ou supprimer une classe:
+
+
+```javascript
 
 // ajouter une classe
 ELEMENT.classList.add("CLASS_NAME");
@@ -42,3 +53,4 @@ ELEMENT.classList.add("CLASS_NAME");
 // supprimer une classe
 ELEMENT.classList.remove("CLASS_NAME");
 ```
+

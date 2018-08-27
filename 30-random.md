@@ -62,5 +62,30 @@ Pour attribuer une position aléatoire située entre 10% et 90%, voici comment p
 ```javascript
 document.getElementById("heure").style.top = getRandom(10, 90)+'%';
 ```
+### Mettre des éléments dans un ordre aléatoire.
+
+Un besoin fréquent consiste à mettre une série d'éléments dans un ordre aléatoire.
+
+Imaginons que nous souhaitons mettre dans un ordre aléatoire des chiffres allant de 1 à 9.
+
+Commençons par créer un "tableau" (objet array) contenant ces chiffres.
+
+```javascript
+var nombres = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ];
+```
+
+Appliquons à cet array une fonction "shuffle":
+
+```javascript
+function shuffle(a) {
+  for (let i = a.length; i; i--) {
+    let j = Math.floor(Math.random() * i);
+    [a[i - 1], a[j]] = [a[j], a[i - 1]];
+  }
+}
+
+shuffle(nombres);
+```
+
 
 ***
