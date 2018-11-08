@@ -11,7 +11,7 @@ Charger jQuery
 
 Voici la manière de charger jQuery.
 
-- Pour commencer, rendez-vous sur le site [jquery.com](http://jquery.com/)  pour vous procurer la dernière version.
+- Rendez-vous sur le site [jquery.com](http://jquery.com/)  pour vous procurer la dernière version.
 - Cliquer sur le bouton "Download jQuery"
 - Parmi les divers liens proposés, choisissez le lien qui dit *"Download the compressed, production jQuery"*
 - En cliquant le lien, faites "Enregistrer sous", et enregistrez le fichier *jquery-3.1.1.min.js* à l'endroit approprié.

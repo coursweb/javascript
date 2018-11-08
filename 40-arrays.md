@@ -6,15 +6,15 @@ permalink: /js/arrays/
 
 Ce chapitre donne quelques informations sur une structure de données particulière : les données tabulaires, ou "array".
 
-Un "array", ce sont des champs de données structurés, un peu comme un tableau excel.
+Un "array", ce sont des champs de données structurés, un peu comme un tableau Excel.
 
-Voici un exemple:
+Voici un exemple simple, une série de nombres:
 
 ```javascript
 var attente = [ 15, 30, 60 ];
 ```
 
-On reconnait les "array" à un détail typographique: l'utilisation de crochets carrés indique qu'on manipule des array.
+On reconnait les "array" à un détail typographique: l'utilisation des crochets carrés indique qu'on manipule des array.
 
 L'utilité d'un array, c'est de pouvoir plus facilement manipuler ces données, accéder à un champ particulier, changer leur ordre...
 

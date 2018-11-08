@@ -16,9 +16,9 @@ L'objet `Math` possède une fonction très utile, qui va nous permettre de "prod
 
 Voici ce que fait Math.random(): "La fonction Math.random() renvoie un nombre flottant pseudo-aléatoire, généré entre 0 (inclus) et 1 (exclu)".
 
-En d'autres termes, ...
+Autrement dit: cette fonction produit un chiffre situé quelque part entre 0.00000... et 0.99999..., toujours inférieur à 1.
 
-Exemple:
+Exemples:
 
 ```
 0.06658971550365189
@@ -38,13 +38,11 @@ Math.random()
 0.14983993531041606
 ```
 
-Comme on le voit, cette fonction produit une valeur aléatoire comprise entre 0 et 1. Cela semble d'une utilité très limitée, mais sachant que la valeur obtenue peut être multipliée par un autre nombre, il est possible d'obtenir au final des nombres aléatoires dans un intervalle qu'on peut spécifier librement.
+Cela semble d'une utilité très limitée, mais sachant que la valeur obtenue peut être multipliée par un autre nombre, il est possible d'obtenir au final des nombres aléatoires dans un intervalle qu'on peut spécifier librement.
 
-À partir de là, imaginons que nous souhaitons avoir un nombre aléatoire allant de 1 à 100 (inclus).
+### Une fonction prête à l'emploi
 
-Il nous faut faire une opération mathématique.
-
-Le meilleure méthode est de créer une fonction qui nous permet de définir à la volée les chiffres maximum et minimum. Voici une fonction d'usage courant:
+Pour se simplifier la vie, on peut recourir à une fonction qui nous permet de définir à la volée les chiffres maximum et minimum. Voici une fonction d'usage courant:
 
 ```javascript
 function getRandom(min, max) {
@@ -62,6 +60,7 @@ Pour attribuer une position aléatoire située entre 10% et 90%, voici comment p
 ```javascript
 document.getElementById("heure").style.top = getRandom(10, 90)+'%';
 ```
+
 ### Mettre des éléments dans un ordre aléatoire.
 
 Un besoin fréquent consiste à mettre une série d'éléments dans un ordre aléatoire.
