@@ -27,3 +27,14 @@ Bibliothèques de dessin vectoriel et de visualisation:
 
 Analyse de données provenant de SMS, dessinant l'évolution d'une relation amoureuse sur quatre années, généré avec Rune.js. [Call me Adele](https://medium.com/@wipaweeeeee/call-me-adele-f37162b6ffe5#.padbmd6fd), Travail de l'artiste Wipawe Sirikolkarn
 
+![Infinitown](/cours-javascript/img/infinitown.jpg)
+
+Infinitown, une ville dont le plan infini est généré aléatoirement. Développé avec Three.js, par le studio [Little Workshop](https://www.littleworkshop.fr/projects/infinitown/).
+
+![Runeterra interactive map](/cours-javascript/img/runeterra-interactive-map.jpg)
+
+Carte interactive du monde imaginaire Runeterra (dans l'univers du jeu League of Legends), programmée avec Three.js & React ([source](https://twitter.com/felixturner/status/1021849617896337408)).
+
+![ThreeJS editor](/cours-javascript/img/threejs-editor.jpg)
+
+Un élément créé dans l'editeur 3D inclus dans Three.js ([source](https://twitter.com/thespite/status/1021855786719498240)).
