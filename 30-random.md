@@ -50,7 +50,7 @@ function getRandom(min, max) {
 }
 ```
 
-Cela semble un peut complexe, mais tout est logique!
+Cela semble un peu complexe, mais tout est logique!
 
 Avec cette fonction, si on veut obtenir un chiffre aléatoire situé entre un **minimum** et un **maximum**.  
 Pour un chiffre entre 111 et 777, on écrit: ```getRandom(111, 777)```.
@@ -61,7 +61,7 @@ Pour attribuer une position aléatoire située entre 10% et 90%, voici comment p
 document.getElementById("heure").style.top = getRandom(10, 90)+'%';
 ```
 
-### Mettre des éléments dans un ordre aléatoire.
+### Mettre des éléments dans un ordre aléatoire.
 
 Un besoin fréquent consiste à mettre une série d'éléments dans un ordre aléatoire.
 
@@ -70,7 +70,7 @@ Imaginons que nous souhaitons mettre dans un ordre aléatoire des chiffres allan
 Commençons par créer un "tableau" (objet array) contenant ces chiffres.
 
 ```javascript
-var nombres = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ];
+var nombres = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];
 ```
 
 Appliquons à cet array une fonction "shuffle":
