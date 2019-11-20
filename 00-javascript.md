@@ -29,6 +29,10 @@ Mais également (API HTML5) :
 
 JavaScript est utilisé par des applications comme [Figma](https://www.figma.com/) (éditeur graphique, dont le code est [écrit en C++](https://medium.com/figma-design/building-a-professional-design-tool-on-the-web-6332ed4f1fcc#.8egblptg3) puis converti en JavaScript), ou pour simuler dans le navigateur des ordinateurs historiques (cf. [Internet Arcade](https://archive.org/details/internetarcade)).
 
+JavaScript permet aussi de construire un éditeur 3D, comme ThreeJS:
+
+![ThreeJS editor](/cours-javascript/img/threejs-editor.jpg)
+
 Entre ces deux extrêmes, le JavaScript peut être utilisé pour développer des extensions de navigateur - par exemple l'extension Firefox [Add-Art](https://github.com/slambert/Add-Art) qui remplace les bannières publicitaires par des travaux d'artistes - ou pour étendre les fonctionalités de logiciels comme [Adobe InDesign](https://forums.adobe.com/community/indesign/indesign_scripting), [Max](https://docs.cycling74.com/max7/tutorials/javascriptchapter01) ou [Sketch](http://developer.sketchapp.com/introduction/plugin-scripts/). 
 
 ![La galaxie javascript, par Olivier Le Goaër](/cours-javascript/img/galaxie-javascript.jpg)
