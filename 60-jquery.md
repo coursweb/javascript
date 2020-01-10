@@ -97,8 +97,8 @@ for (var links = document.links, i = 0, a; a = links[i]; i++) {
 Voici un code jQuery faisant usage de "toggle":
 
 ```javascript
-$( ".mobile-title"  ).click(function() {
-  $("#styleinfos").toggle();
+$( ".mobile-menu"  ).click(function() {
+  $("#menu").toggle();
 });
 ```
 
@@ -127,7 +127,7 @@ Ce script utilise les méthodes suivantes:
 
 * `$( ".mobile-menu"  )` : C'est le sélecteur qui définit l'objet cliquable, qui va déclencher L'action afficher / masquer.
 * `.on("click", function()` : la méthode `on()` est l'une des plus importantes dans jQuery. Elle permet de déclencher une suite d'opérations après un événement. Ici nous avons choisi "click".
-*  `var state = $("#menu").data( "toggle" )`: On définit une variable nommée "state", pour détecter l'état actuel de notre menu – est-il ouvert ou fermé? Le sélecteur `$("#styleinfos")` correspond à notre menu. La méthode `data()` permet de lire un attribut "data" (un attribut HTML, qui peut être appliqué sur tout élément comme une classe CSS, mais sert uniquement à stoquer une donnée utilisable en JavaScript).
+*  `var state = $("#menu").data( "toggle" )`: On définit une variable nommée "state", pour détecter l'état actuel de notre menu – est-il ouvert ou fermé? Le sélecteur `$("#menu")` correspond à notre menu. La méthode `data()` permet de lire un attribut "data" (un attribut HTML, qui peut être appliqué sur tout élément comme une classe CSS, mais sert uniquement à stoquer une donnée utilisable en JavaScript).
 * `if ( state == "open") {` : Nous vérifions si l'état (c.à.d. la valeur de notre attribut data-toggle) est "open", ou non.
 * `$("#menu").hide()` : Le menu étant ouvert, notre action consiste à le masquer, avec la méthode jQuery `hide()`...
 * `.data( "toggle", "closed" )` : En plus de le fermer, nous redéfinissons l'attribut "data-toggle" et lui donnons la valeur "closed".
