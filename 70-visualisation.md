@@ -38,3 +38,7 @@ Carte interactive du monde imaginaire Runeterra (dans l'univers du jeu League of
 ![ThreeJS editor](/cours-javascript/img/threejs-editor.jpg)
 
 Un élément créé dans l'editeur 3D inclus dans Three.js ([source](https://twitter.com/thespite/status/1021855786719498240)).
+
+### Ressources d'apprentissage
+
+* Tutoriels sur le site [FlowingData ](https://flowingdata.com/category/tutorials/)
