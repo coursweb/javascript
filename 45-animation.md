@@ -20,6 +20,7 @@ Quelques bibliothèques Javascript pouvant aider à créer ces effets:
 
 Pour aider à détecter le "scroll":
 
+* [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/), licence MIT.
 * [AOS (Animate On Scroll)](https://github.com/michalsnik/aos) (premier release en 2015, dernier en 2018), licence MIT.
 * [WOW.js](https://wowjs.uk/) (premier release en 2013, dernier en 2016), licence MIT.
 * [scrollMonitor](https://github.com/stutrek/scrollMonitor) (premier release en 2013, dernier en 2017), licence MIT.
@@ -31,6 +32,9 @@ Pour les animations:
 * [Typed.js](https://github.com/mattboldt/typed.js) - animation typographique
 * [Velocity.js](http://velocityjs.org/) - inactif depuis 2018
 
+Pour un effect Parallax:
+* [Rellax.js](https://dixonandmoe.com/rellax/)
+
 Certains "front-end frameworks" proposent des effets de "Block Reveal":
 * [CodyHouse Framework](https://codyhouse.co/ds/components/info/reveal-effects)
 
@@ -40,3 +44,6 @@ Exemples de transitions visuelles:
 
 * [Transitions](https://www.awwwards.com/awwwards/collections/transitions/), une collection du site wwwwards
 
+## Effets 3D
+
+* [curtains.js](https://www.curtainsjs.com/)
