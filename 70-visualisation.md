@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Graphisme et visualisation
-permalink: /js/visualisation
+permalink: visualisation.html
 ---
 
 ### Graphisme et visualisation

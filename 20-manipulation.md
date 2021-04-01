@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Manipulation d’objets
-permalink: /js/manipulation/
+permalink: manipulation.html
 ---
 
 Extensions au noyau JS

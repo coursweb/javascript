@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Offline
-permalink: /js/offline
 ---
 
 ### Technologies pour fonctionnement hors-ligne
