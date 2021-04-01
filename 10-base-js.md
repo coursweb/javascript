@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bases JavaScript
-permalink: /js/bases/
+permalink: bases.html
 ---
 
 Quelques bases JavaScript...
@@ -74,7 +74,7 @@ La console est un outil intégré à votre navigateur. Voici comment l'afficher:
 
 Si vous effectuez cela sur Facebook, vous constaterez que cette plateforme n'apprécie pas que ses utilisateurs ouvrent la console développeur:
 
-![Message d’avertissement de Facebook apparaissant dans la console](/cours-javascript/img/fb-console.jpg)
+![Message d’avertissement de Facebook apparaissant dans la console](img/fb-console.jpg)
 
 L'artiste James Bridle a [écrit un article](http://booktwo.org/notebook/welcome-js/) et développé un script  - [welcome.js](https://github.com/stml/welcomejs/) - en résponse à cette pratique.
 

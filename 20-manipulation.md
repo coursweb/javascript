@@ -65,26 +65,40 @@ window.document.write("<b>Bienvenue à l'université de Pau</b>");
 
 DOM: Document Object Model
 
-Représentation d'un document x(ht)ml sous saforme 100% objet
+Représentation d'un document x(ht)ml sous sa
+forme 100% objet
 
-* Les balises sont des noeuds et leurs imbrications forment une arborescence* Cette structure d'arbre est ensuite facile à manipuler
+* Les balises sont des noeuds et leurs imbrications forment une arborescence
+* Cette structure d'arbre est ensuite facile à manipuler
 
 L'arbre DOM est chargé dans le navigateur
 
-* L'arbre est parcouru par le moteur de rendu du navigateur afin de produire l'affichage graphique* Chaque modification ultérieure de cet arbre force le rafraîchissement de l'affichage graphique
+* L'arbre est parcouru par le moteur de rendu du navigateur afin de produire l'affichage graphique
+* Chaque modification ultérieure de cet arbre force le rafraîchissement de l'affichage graphique
 
 Document XHTML : exemple
 
 ```html
 <!DOCTYPE html>
-<html><head>  <title>Bienvenue</title>  <script src="essai.js"></script></head>
-<body>  <p id="intro">    Pour me contacter : <a href="mailto:moi@example.org">cliquez ici</a>
-    <ul>      <li>Uniquement en semaine</li>
-    </ul>  </p>  <h1 class="joli1">S'inscrire à la Newsletter</h1>
-  <form>    <input type="text" name="news_email"/>
-  </form></body>
+<html>
+<head>
+  <title>Bienvenue</title>
+  <script src="essai.js"></script>
+</head>
+<body>
+  <p id="intro">
+    Pour me contacter : <a href="mailto:moi@example.org">cliquez ici</a>
+    <ul>(img
+      <li>Uniquement en semaine</li>
+    </ul>
+  </p>
+  <h1 class="joli1">S'inscrire à la Newsletter</h1>
+  <form>
+    <input type="text" name="news_email"/>
+  </form>
+</body>
 </html>
-```
+```(img
 
 Arbre du document XHTML:
 
@@ -94,7 +108,15 @@ Arbre du document XHTML:
 
 **Popriétés** | **Commentaires**
 childNodes | nœuds enfants (Array)
-firstChild | premier nœud enfantlastChild | dernier nœud enfantnextSibling | prochain nœud d'un type (nœud de même niveau)parentNode | nœud parentpreviousSibling | nœud précédent d'un type (nœud de même niveau)nodeName | nom du nœudnodeValue | valeur / contenu du nœudnodeType | type du nœudinnerHTML | contenu littéral html du noeud
+firstChild | premier nœud enfant
+lastChild | dernier nœud enfant
+nextSibling | prochain nœud d'un type (nœud de même niveau)
+parentNode | nœud parent
+previousSibling | nœud précédent d'un type (nœud de même niveau)
+nodeName | nom du nœud
+nodeValue | valeur / contenu du nœud
+nodeType | type du nœud
+innerHTML | contenu littéral html du noeud
 
 Navigation dans l'arbre DOM
 
@@ -119,7 +141,8 @@ var result = document.getElementById("intro") ;
 ```  
 
 Par la valeur de **l'attribut class** (si il existe)
-```javascript
+
+```javascript
 var result = document.getElementsByClassName("joli1") ;
 // Renverra 0 ou n résultats
 ```      
@@ -141,7 +164,8 @@ var result = document.getElementsByName("news_email") ;
 ```  
 
 Par **les sélecteurs CSS**  
-```javascript
+
+```javascript
 var result = document.querySelector("p#intro") ;
 // Renverra 0 ou 1 résultat, le premier trouvé
 ```  
@@ -171,26 +195,38 @@ Accès par navigation dans l'arbre DOM:
 
 ```html
 <html>
-  <head>    <title>Bienvenue</title>    <script>
+  <head>
+    <title>Bienvenue</title>
+    <script>
       function changeColor() {
         var htmlTag = document.childNodes[0];
         var bodyTag = htmlTag.lastChild;
         var pTag = bodyTag.firstChild;
         pTag.style.color="#0000FF";
       }
-    </script>  </head>  <body onload="changeColor();">    <p>Lorem Ipsum</p>
-  </body></html>
+    </script>
+  </head>
+  <body onload="changeColor();">
+    <p>Lorem Ipsum</p>
+  </body>
+</html>
 ```
 
 Accès direct, par l'attribut ID('foo'): 
 
 ```html
 <html>
-  <head>    <title>Bienvenue</title>    <script>
+  <head>
+    <title>Bienvenue</title>
+    <script>
       function changeColor() {
         var pTag = document.getElementById('foo');
         pTag.style.color="#0000FF";
-      }    </script>  </head>  <body onload="changeColor();">    <p id="foo">Lorem Ipsum</p>
+      }
+    </script>
+  </head>
+  <body onload="changeColor();">
+    <p id="foo">Lorem Ipsum</p>
   </body>
 </html>
 ```
@@ -199,7 +235,8 @@ Objets HTML
 ===
 
 Après avoir navigué et atteint le nœud de son choix, il faut agir dessus
-Pour cela, il est nécessaire de connaître sa véritable nature (son type)
+
+Pour cela, il est nécessaire de connaître sa véritable nature (son type)
 
 nœud ```<body>``` ? nœud ```<h1>``` ?, nœud ```<img>``` ? Etc.
 
