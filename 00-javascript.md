@@ -55,11 +55,11 @@ Le standard JavaScript est révisé régulièrement. La 6ème version (ES6 ou ES
 
 De nombreux utilitaires ont été construits sur la base du JavaScript:
 
-- **jQuery** est une *bibliothèque* JavaScript (library) - une boîte à outils pour faciliter les usages les plus communs.
+- **jQuery** est une *bibliothèque* JavaScript (library) visant à faciliter l'écriture de scripts, créée en 2006 par John Resig.
 - **Node.js** est une *plateforme serveur* JavaScript (runtime) - comme Apache, mais exécutant du code JavaScript plutôt que du PHP.
-- **AngularJS** est un *framework* de programmation JavaScript front-end, créé par Google.
-- **Ember** est un autre *framework* front-end JavaScript.
-- **React** est encore un *framework* JavaScript front-end, créé par les développeurs de Facebook.
+- **AngularJS** est un *framework* de programmation JavaScript front-end, créé par Google en 2010.
+- **React** est également un *framework* JavaScript front-end, développée et rendue publique par Facebook depuis 2013.
+- **Vue.js** est un framework créé en 2013 par Ewan You, et développé par une communauté d'utilisateurs. Avec React, c'est celui qui a la plus forte croissance.
 
 ![Frameworks JavaScript](img/js-frameworks.jpg)
 

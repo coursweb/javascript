@@ -17,6 +17,8 @@ Articles décrivant ces techniques:
 * [How to create fancy revealing animations with these simple CSS tricks](https://hackernoon.com/how-to-create-fancy-revealing-animations-with-these-simple-css-tricks-5b34614ae69a), par Carlos Roso (août 2017).
 * [Creating Reveal Effects on Scroll](https://dev.to/kathykato/creating-reveal-effects-on-scroll-31o6), par Katherine Kato (février 2019). Utilise la bibliothèque AOS.
 
+### bibliothèques Javascript
+
 Quelques bibliothèques Javascript pouvant aider à créer ces effets:
 
 Pour aider à détecter le "scroll":
