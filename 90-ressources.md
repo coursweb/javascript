@@ -9,28 +9,37 @@ Voici des ressources pour vous permettre d'approfondir vos connaissances en Java
 
 ### Cours en ligne
 
-#### Cours de Kahn Academy
+#### Cours de Khan Academy
 
-Le site [Kahn Academy](https://fr.khanacademy.org/) propose plusieurs modules pour l'aprentissage de JavaScript. Les vidéos sont en anglais, avec transcription en français.
+Le célèbre site [Khan Academy](https://fr.khanacademy.org/) propose plusieurs modules pour l'aprentissage de JavaScript. Les vidéos sont en anglais, avec transcription en français.
 
-- [Introduction à JS : dessiner et animer](https://fr.khanacademy.org/computing/computer-programming/programming) - ce cours passe en revue des notions fondamentales de la programmation, telles que les variables, fonctions et boucles.
-- [HTML/JS : faire des pages Web interactives](https://fr.khanacademy.org/computing/computer-programming/html-css-js)
+<div class="cards"></div>
+
+- [Introduction à JS : dessiner et animer](https://fr.khanacademy.org/computing/computer-programming/programming) - ce cours passe en revue les notions fondamentales de la programmation, telles que les variables, fonctions et boucles.
+- [HTML/JS : faire des pages Web interactives](https://fr.khanacademy.org/computing/computer-programming/html-css-js) - l'objectif de ce cours est davantage centré sur l'interaction dans une page web.
 - [JS avancé : jeux et rendus visuels](https://fr.khanacademy.org/computing/computer-programming/programming-games-visualizations)
+
+![Tutoriel de Khan Academy](img/tutoriel-khan-academy-JS.jpg)
 
 #### Autres cours intéressants
 
+<div class="cards"></div>
+
 - Sur OpenClassrooms: *[Apprenez à programmer avec JavaScript](https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript)*, 15 heures, par Will Alexander.
-- Sur Graphicart, *[Apprendre le JavaScript](https://grafikart.fr/formations/debuter-javascript)*, 15h de vidéo en 29 chapitres.
+- Sur Grafikart.fr, *[Apprendre le JavaScript](https://grafikart.fr/formations/debuter-javascript)*, 15h de vidéo en 29 chapitres.
 - Sur Edx.org: [JavaScript Introduction](https://www.edx.org/course/javascript-introduction-2) (en anglais), par Michel Buffa, Université Côte d’Azur.
-- Sur CodeAcademy: [Learn JavaScript](https://www.codecademy.com/learn/introduction-to-javascript), parcours de 30h (en anglais).
 
 ### Fonctionnement général du JavaScript:
 
 Le site MDN Web Docs (de Mozilla) propose plusieurs tutoriels JavaScript:
 
+<div class="cards"></div>
+
 - Un bon tutoriel pour débuter: *[Les bases de JavaScript](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/JavaScript_basics)*
 - Un autre tutoriel plus dense: *[Une ré-introduction à JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript/Une_réintroduction_à_JavaScript)*, MDN Web Docs.
 - [Page MDN listant les ressources JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+
+![Site de référence MDN](img/tutoriel-js-MDN.jpg)
 
 Conseils d'apprentissage par des pros:
 
