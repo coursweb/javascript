@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lightbox
-permalink: /js/lightbox
+permalink: lightbox.html
 ---
 
 Le terme "lightbox" désigne l'affichage de médias dans une fenêtre modale. Cette méthode est souvent utilisée pour offrir une navigation dans une galerie d'images.
@@ -23,6 +23,5 @@ Voir aussi:
 
 - [Un exemple sur W3Schools](https://www.w3schools.com/howto/howto_js_lightbox.asp)
 - Le site CSS Script présente [de nombreuses librairies](https://www.cssscript.com/tag/lightbox/).
-- Le site BuiltWith offre [des statistiques d'utilisation](https://trends.builtwith.com/javascript/lightbox) des librairies Lightbox.
-- Un [tutoriel pour créer une lightbox](https://medium.com/@diegovogel/create-a-lightbox-gallery-with-standard-bootstrap-components-b9de322ddb9e) avec les composantes standard de Bootstrap.
+- Un [tutoriel pour créer une lightbox](https://medium.com/@diegovogel/create-a-lightbox-gallery-with-standard-bootstrap-components-b9de322ddb9e) avec les composants standard de Bootstrap.
 
