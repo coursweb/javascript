@@ -49,7 +49,7 @@ Conseils d'apprentissage par des pros:
 
 ### Livres papier
 
-Des livres papier qui peuvent être utile:
+Des livres papier qui peuvent être utiles:
 
 - *[JavaScript pour les web designers](https://www.eyrolles.com/Informatique/Livre/javascript-pour-les-web-designers-9782212674088/)* (2017), Mat Marquis, collection A Book Apart. Un petit livre qui donne une bonne introduction.
 - *[Tout JavaScript](https://www.toutjavascript.com/)* (2020, 2e édition), Olivier Hondermarck, Editions Dunod. Réécriture d'un livre paru 10 ans auparavant.
