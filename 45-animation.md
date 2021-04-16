@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Animation
-permalink: /js/animation/
+permalink: animation.html
 ---
 
 Techniques d'animation en Javascript
@@ -12,9 +12,10 @@ Par "Block Reveal Effects" (ou "Element Reveal Animations"), on désigne des ani
 
 Articles décrivant ces techniques:
 
-* [Block Reveal Effects](https://tympanus.net/codrops/2016/12/21/block-reveal-effects/), décembre 2016
-* [How to create fancy revealing animations with these simple CSS tricks](https://hackernoon.com/how-to-create-fancy-revealing-animations-with-these-simple-css-tricks-5b34614ae69a), par Carlos Roso, août 2017
-* [Creating Reveal Effects on Scroll](https://dev.to/kathykato/creating-reveal-effects-on-scroll-31o6), par Katherine Kato, février 2019
+* [Tutoriel ScrollSpy](https://grafikart.fr/tutoriels/scrollspy-js-page-491), sur Grafikart.fr (2019). Propose une technique en pur JavaScript, utilisant l'IntersectionObserver.
+* [Block Reveal Effects](https://tympanus.net/codrops/2016/12/21/block-reveal-effects/), par Mary Lou (décembre 2016). Utilise les bibliothèques Anime.js et scrollMonitor.
+* [How to create fancy revealing animations with these simple CSS tricks](https://hackernoon.com/how-to-create-fancy-revealing-animations-with-these-simple-css-tricks-5b34614ae69a), par Carlos Roso (août 2017).
+* [Creating Reveal Effects on Scroll](https://dev.to/kathykato/creating-reveal-effects-on-scroll-31o6), par Katherine Kato (février 2019). Utilise la bibliothèque AOS.
 
 Quelques bibliothèques Javascript pouvant aider à créer ces effets:
 
