@@ -68,17 +68,6 @@ Une application web contemporaine, au lieu d'utiliser **LAMP** (**L**inux, **A**
 La bibliothèque jQuery
 ==
 
-Lancée en janvier 2006 par John Resig, **jQuery** est une bibliothèque JavaScript libre et multi-plateforme créée pour faciliter l'écriture de scripts côté client dans le code HTML des pages web.
-
-Dans son article, *[Thank you, jQuery](https://adactio.com/journal/10806)*, publié en juin 2016, Jeremy Keith indique qu'au cours des 10 années depuis la sortie de jQuery, de nombreuses améliorations proposées par jQuery ont été intégrées nativement par les navigateurs (```querySelector```, ```querySelectorAll``` - voir [Selectors API](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)), tandis que d'autres (comme l'animation) font désormais partie du CSS3.
-
-> La plus grosse amélioration que JavaScript a connue dans les navigateurs modernes est peut-être le support de la méthode *querySelectorAll*, qui nous permet d’accéder aux éléments du DOM à l’aide de sélecteurs CSS, comme nous le faisons avec jQuery ! - *Scott Jehl, 2014*  
-
-Il est désormais nettement plus facile de se passer de jQuery, et d'écrire du "Plain Vanilla JavaScript". L'objectif ultime d'un outil comme jQuery serait de ne plus être nécessaire.
-
-Le site [Vanilla JS](http://vanilla-js.com/) expose sous un mode parodique (en se présentant comme une énième bibliothèque JavaScript) les avantages (en termes de vitesse) à utiliser du JavaScript pur, plutôt que de se reposer sur une bibliothèque telle que jQuery, Prototype, Dojo, MooTools.
-
-![](/cours-html/img/Strip-Prendre-le-train-en-marche-650-final1.jpg){:id: .large-image}
 
 Préprocesseurs:
 ===
