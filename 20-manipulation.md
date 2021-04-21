@@ -35,13 +35,13 @@ Arborescence d'objets
 
 Méthodes d'interaction avec l'utilisateur par le biais de la fenêtre du navigateur
 
-Utilisation de l'objet window
+### Utilisation de l'objet window
 
 ```javascript
 window.alert("Bienvenue sur ce site !");
 ```
 
-Divers exemples BOM
+### Divers exemples BOM
 
 ```javascript
 //affiche dans la console le nom de code du navigateur utilisé
@@ -88,7 +88,7 @@ Document XHTML : exemple
 <body>
   <p id="intro">
     Pour me contacter : <a href="mailto:moi@example.org">cliquez ici</a>
-    <ul>(img
+    <ul>
       <li>Uniquement en semaine</li>
     </ul>
   </p>
@@ -98,9 +98,9 @@ Document XHTML : exemple
   </form>
 </body>
 </html>
-```(img
+```
 
-Arbre du document XHTML:
+### Arbre du document XHTML:
 
 ![Arbre du document XHTML](/cours-javascript/img/arbre-DOM.jpg)
 
