@@ -28,6 +28,7 @@ Pour aider à détecter le "scroll":
 * [WOW.js](https://wowjs.uk/) (premier release en 2013, dernier en 2016), licence MIT.
 * [scrollMonitor](https://github.com/stutrek/scrollMonitor) (premier release en 2013, dernier en 2017), licence MIT.
 * [ScrollReveal](https://github.com/scrollreveal/scrollreveal) (premier release en 2014, dernier en 2018)
+* [ScrollMagic](http://scrollmagic.io/) - depuis 2013, toujours maintenu en 2021.
 
 Pour les animations:
 * [Anime.js](https://animejs.com/)
