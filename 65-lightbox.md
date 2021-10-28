@@ -10,10 +10,10 @@ Le nom **Lightbox JS** provient d'une librairie JavaScript open-source développ
 
 Quelques librairies produisant ce type d'effet:
 
-- [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/) - l'orignal, par Lokesh Dhakar. Licence MIT. Dernier release: 2020.
+- [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/), par Lokesh Dhakar. Licence MIT. Dernier release: 2020.
 - [PhotoSwipe](https://photoswipe.com/), par Dmitry Semenov. Licence MIT. N'utilise pas jQuery (pur JS). Dernier release V4 en 2019, développement V5 actif en 2021.
-- [Fancybox](http://fancyapps.com/fancybox/3/) Utilise jQuery. Payant pour les usages commerciaux.
 - [Featherlight](https://noelboss.github.io/featherlight/), par Noël Bossart. Utilise jQuery. Licence MIT.
+- [Fancybox](http://fancyapps.com/fancybox/), par Jānis Skarnelis. Payant pour les usages commerciaux.
 
 Librairies anciennes:
 
@@ -46,3 +46,4 @@ Librairies complètes:
 - [Splide JS](https://splidejs.com/) par Naotoshi Fujita. Taille JS: 45 Ko.
 - [Flickity](https://flickity.metafizzy.co) par Metafizzy (2015-2021). Taille JS: 61 Ko. Utilisé sur [hack.eracom.ch](https://hack.eracom.ch/)
 - [Swiper](https://swiperjs.com/) par Vladimir Kharlampidi (2014-2021). Taille JS: 139 Ko.
+- [keen-slider](https://keen-slider.io/)
