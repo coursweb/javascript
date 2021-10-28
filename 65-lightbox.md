@@ -10,14 +10,17 @@ Le nom **Lightbox JS** provient d'une librairie JavaScript open-source développ
 
 Quelques librairies produisant ce type d'effet:
 
-- [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/) - l'orignal, par Lokesh Dhakar. Licence MIT.
-- Slimbox - vieux et non-maintenu.
-- Thickbox - vieux et non-maintenu.
-- [Colorbox](http://www.jacklmoore.com/colorbox/), par Jack Moore. Utilise jQuery. Licence MIT.
-- [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/), par Dmitry Semenov. Licence MIT.
-- [PhotoSwipe](https://photoswipe.com/), aussi par Dmitry Semenov. Licence MIT. N'utilise pas jQuery (pur JS).
+- [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/) - l'orignal, par Lokesh Dhakar. Licence MIT. Dernier release: 2020.
+- [PhotoSwipe](https://photoswipe.com/), par Dmitry Semenov. Licence MIT. N'utilise pas jQuery (pur JS). Dernier release V4 en 2019, développement V5 actif en 2021.
 - [Fancybox](http://fancyapps.com/fancybox/3/) Utilise jQuery. Payant pour les usages commerciaux.
 - [Featherlight](https://noelboss.github.io/featherlight/), par Noël Bossart. Utilise jQuery. Licence MIT.
+
+Librairies anciennes:
+
+- [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/), par Dmitry Semenov. Dernier release: 2016.
+- [Colorbox](http://www.jacklmoore.com/colorbox/), par Jack Moore. Utilise jQuery. Dernier release: 2016.
+- Slimbox - vieux et non-maintenu, ne pas utiliser.
+- Thickbox - vieux et non-maintenu, ne pas utiliser.
 
 Voir aussi:
 
