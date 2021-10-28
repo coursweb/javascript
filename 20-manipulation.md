@@ -120,7 +120,7 @@ innerHTML | contenu littéral html du noeud
 
 Navigation dans l'arbre DOM
 
-![Navigation DOM](/cours-javascript/img/DOM-navigation.jpg)
+![Navigation DOM](img/DOM-navigation.jpg)
 
 **Méthodes d'un nœud:**
 
