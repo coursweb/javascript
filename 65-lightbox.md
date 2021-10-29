@@ -47,3 +47,7 @@ Librairies complètes:
 - [Flickity](https://flickity.metafizzy.co) par Metafizzy (2015-2021). Taille JS: 61 Ko. Utilisé sur [hack.eracom.ch](https://hack.eracom.ch/)
 - [Swiper](https://swiperjs.com/) par Vladimir Kharlampidi (2014-2021). Taille JS: 139 Ko.
 - [keen-slider](https://keen-slider.io/)
+
+Librairies anciennes:
+
+- [Fotorama](https://github.com/artpolikarpov/fotorama), plus de mises à jour depuis 2015.
