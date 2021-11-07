@@ -43,6 +43,7 @@ Exemples:
 Librairies complètes:
 
 - [TinySwiper](https://tiny-swiper.js.org/docs/demo/). Taille JS: 16 Ko.
+- [Glide.js](https://glidejs.com/). Taille JS: 23 Ko.
 - [Splide JS](https://splidejs.com/) par Naotoshi Fujita. Taille JS: 45 Ko.
 - [Flickity](https://flickity.metafizzy.co) par Metafizzy (2015-2021). Taille JS: 61 Ko. Utilisé sur [hack.eracom.ch](https://hack.eracom.ch/)
 - [Swiper](https://swiperjs.com/) par Vladimir Kharlampidi (2014-2021). Taille JS: 139 Ko.
