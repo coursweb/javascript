@@ -8,7 +8,7 @@ Techniques d'animation en Javascript
 
 # Reveal Effects
 
-Par "Block Reveal Effects" (ou "Element Reveal Animations"), on désigne des animations qui font apparaître un nouveau bloc de contenu. Elles sont souvent déclenchés par le défilement de la page (scroll).
+Par "Block Reveal Effects" (ou "Element Reveal Animations"), on désigne des animations qui font apparaître un nouveau bloc de contenu. Elles sont souvent déclenchées par le défilement de la page (scroll).
 
 Articles décrivant ces techniques:
 
@@ -29,6 +29,8 @@ Pour aider à détecter le "scroll":
 * [scrollMonitor](https://github.com/stutrek/scrollMonitor) (premier release en 2013, dernier en 2017), licence MIT.
 * [ScrollReveal](https://github.com/scrollreveal/scrollreveal) (premier release en 2014, dernier en 2018)
 * [ScrollMagic](http://scrollmagic.io/) - depuis 2013, toujours maintenu en 2021.
+
+Un joli exemple de ScrollMagic en action: [https://sailorhg.com/home_sweet_homepage/](https://sailorhg.com/home_sweet_homepage/)
 
 Pour les animations:
 * [Anime.js](https://animejs.com/)
