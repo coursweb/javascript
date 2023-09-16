@@ -102,7 +102,7 @@ Document XHTML : exemple
 
 ### Arbre du document XHTML:
 
-![Arbre du document XHTML](/cours-javascript/img/arbre-DOM.jpg)
+![Arbre du document XHTML](img/arbre-DOM.jpg)
 
 **Propriétés d'un nœud:**
 
