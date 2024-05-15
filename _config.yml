@@ -12,9 +12,11 @@ chapters:
    url: https://cours-web.ch/css/
  - title: JavaScript
    url: https://cours-web.ch/javascript/
+ - title: A11Y
+   url: https://cours-web.ch/a11y/
 # Footer content
 # Content is split in three columns.   
 footer_col_1: <ul class="contact-list">
   <li>Eracom, Lausanne</li>
-  <li>2017–2021</li></ul>
+  <li>2017–2024</li></ul>
 footer_col_2: <ul class="social-media-list"><li><a href="https://github.com/coursweb/javascript">Lien Github</a></li></ul>
