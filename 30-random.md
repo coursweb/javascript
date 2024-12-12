@@ -4,7 +4,7 @@ title: Random
 permalink: /js/random/
 ---
 
-Un cas de figure qui exige le recours le JavaScript est le besoin de produire un résultat aléatoire.
+Un cas de figure qui exige le recours au JavaScript est le besoin de produire un résultat aléatoire.
 
 En effet, les languages descriptifs que sont le HTML et CSS permettent de structurer et styler des documents, mais il leur est impossible de recourir à l'aléatoire, p.ex. de changer une couleur aléatoirement à chaque chargement de page. Le HTML et le CSS ne connaissent pas le hasard!
 
@@ -38,7 +38,7 @@ Math.random()
 0.14983993531041606
 ```
 
-Cela semble d'une utilité très limitée, mais sachant que la valeur obtenue peut être multipliée par un autre nombre, il est possible d'obtenir au final des nombres aléatoires dans un intervalle qu'on peut spécifier librement.
+Cela semble d'une utilité limitée... mais sachant que la valeur obtenue peut être multipliée par un autre nombre, il est possible d'obtenir au final des nombres aléatoires dans un intervalle qu'on peut spécifier librement.
 
 ### Une fonction prête à l'emploi
 
@@ -50,7 +50,7 @@ function getRandom(min, max) {
 }
 ```
 
-Cela semble un peu complexe, mais tout est logique!
+Comment ça fonctionne ?
 
 Avec cette fonction, si on veut obtenir un chiffre aléatoire situé entre un **minimum** et un **maximum**.  
 Pour un chiffre entre 111 et 777, on écrit: ```getRandom(111, 777)```.
